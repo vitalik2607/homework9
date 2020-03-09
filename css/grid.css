@@ -1,0 +1,132 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box !important;
+}
+
+.container {
+    margin: 0 auto !important;
+    /* максимальная ширина контейнера */
+    max-width: 1170px !important;
+    /* 15px это половина gutter-а (половина отступа между колонками) */
+    padding: 0 15px !important;
+    width: 100% !important;
+}
+
+.container-fluid {
+    width: 100% !important;
+    /* 15px это половина gutter-а (половина отступа между колонками) */
+    padding: 0 15px !important;
+}
+
+.row {
+    display: flex !important;
+    /* 15px это половина gutter-а (половина отступа между колонками) */
+    margin: 0 -15px !important;
+    flex-wrap: wrap !important;
+}
+
+.row.no-gutters {
+    margin: 0 !important;
+}
+
+.row.no-gutters [class^="col"] {
+    padding: 0 !important;
+}
+
+[class^="col"] {
+    /* 15px это половина gutter-а (половина отступа между колонками) */
+    padding: 0 15px !important;
+}
+
+.col-12 {
+    width: 100% !important;
+}
+
+.col-11 {
+    width: calc(calc(100% / 12) * 11) !important;
+}
+
+.col-10 {
+    width: calc(calc(100% / 12) * 10) !important;
+}
+
+.col-9 {
+    width: calc(calc(100% / 12) * 9) !important;
+}
+
+.col-8 {
+    width: calc(calc(100% / 12) * 8) !important;
+}
+
+.col-7 {
+    width: calc(calc(100% / 12) * 7) !important;
+}
+
+.col-6 {
+    width: calc(calc(100% / 12) * 6) !important;
+}
+
+.col-5 {
+    width: calc(calc(100% / 12) * 5) !important;
+}
+
+.col-4 {
+    width: calc(calc(100% / 12) * 4) !important;
+}
+
+.col-3 {
+    width: calc(calc(100% / 12) * 3) !important;
+}
+
+.col-2 {
+    width: calc(calc(100% / 12) * 2) !important;
+}
+
+.col-1 {
+    width: calc(calc(100% / 12) * 1) !important;
+}
+
+.offset-11 {
+    margin-left: calc(calc(100% / 12) * 11) !important;
+}
+
+.offset-10 {
+    margin-left: calc(calc(100% / 12) * 10) !important;
+}
+
+.offset-9 {
+    margin-left: calc(calc(100% / 12) * 9) !important;
+}
+
+.offset-8 {
+    margin-left: calc(calc(100% / 12) * 8) !important;
+}
+
+.offset-7 {
+    margin-left: calc(calc(100% / 12) * 7) !important;
+}
+
+.offset-6 {
+    margin-left: calc(calc(100% / 12) * 6) !important;
+}
+
+.offset-5 {
+    margin-left: calc(calc(100% / 12) * 5) !important;
+}
+
+.offset-4 {
+    margin-left: calc(calc(100% / 12) * 4) !important;
+}
+
+.offset-3 {
+    margin-left: calc(calc(100% / 12) * 3) !important;
+}
+
+.offset-2 {
+    margin-left: calc(calc(100% / 12) * 2) !important;
+}
+
+.offset-1 {
+    margin-left: calc(calc(100% / 12) * 1) !important;
+}
