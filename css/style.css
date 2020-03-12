@@ -1,4 +1,6 @@
-
+.body{
+    background-image: url(../img/09_HW_1.png);
+}
 .title{
     font-family: 'Merriweather',sans-serif;
     padding-top: 210px;
@@ -76,7 +78,7 @@ margin-left: 120px;
 /* margin-bottom: 90px; */
 }
 .wrapper{
-background: #FFFFFF;;
+/* background: #FFFFFF;; */
 /* width: 1410px; */
 margin-left: 95px;
 /* margin-top: 150px;
